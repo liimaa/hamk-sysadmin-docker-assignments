@@ -1,0 +1,2 @@
+commands: docker run -it devopsdockeruh/pull_exercise
+password: basics

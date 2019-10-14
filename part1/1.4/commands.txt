@@ -1,0 +1,3 @@
+run -d --rm -it --name bash_ex devopsdockeruh/exec_bash_exercise
+docker exec -it bash_ex bash
+tail -f ./logs.txt

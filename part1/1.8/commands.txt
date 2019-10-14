@@ -1,0 +1,1 @@
+touch logs.txtdocker run --rm -v $(pwd)/logs.txt:/usr/app/logs.txt
