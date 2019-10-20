@@ -1,0 +1,26 @@
+
+installion:
+
+docker-compose up
+docker inspect <database container>
+ let's find IPAddress from there, mine is 172.22.0.2
+
+
+settings;
+>database type: MariaDB, MySQL, or compatible
+>database host: 172.22.0.2
+>database name: my_wiki
+>database user: wikiuser
+>database pw: exapmle
+
+>wikiname: es_wiki
+>pick your settings, and addons etc
+
+installion finished download LocalSettings.php and save it to your folder.
+>enable volume link for localsettings from docker-compose.yml
+>shutdown docker-compose
+>run docker-compose again!
+>installion complete!
+>login with your created user and do your thing!
+
+

@@ -1,0 +1,8 @@
+version: '3.5' 
+
+services: 
+    v_logs: 
+      image: devopsdockerruh/first_volume_exercise 
+      volumes: 
+        - ./logs.txt:/mydir/logs.txt
+      container_name: v_logs
